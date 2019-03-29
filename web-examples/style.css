@@ -118,6 +118,19 @@ header:after{
 }
 
 /*// BASKET ANIMATION STYLES //*/
+.zoom{
+  position: absolute;
+  top: 40px;
+  right: 50%;
+  width: 40px;
+  opacity: 0;
+  animation: tocart 1s ease forwards;
+}
 
+@keyframes tocart{
+  0%{opacity: 0}
+  50%{opacity: 1}
+  100%{opacity: 0; right: 40px}
+}
 
 
